@@ -16,6 +16,12 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Description", required: false, name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - {label: "Tags", name: "tags", widget: "list"}
+      - { label: "Tags", name: "tags", widget: "list", fields:
+          [
+            { label: "ReactJs", name: "reactjs", widget: "string"},
+            { label: "Redux", name: "redux", widget: "string" },
+            { label: "Javascript", name: "javascript", widget: "string" },
+          ] 
+        }
