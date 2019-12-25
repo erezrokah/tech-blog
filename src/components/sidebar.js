@@ -4,9 +4,9 @@ import styled from 'styled-components'
 import {
   FaHome,
   FaUserSecret,
-  FaLinkedin,
   FaGithub,
-  FaHashtag
+  FaHashtag,
+  FaStackOverflow
 } from 'react-icons/fa'
 
 const Sidebar = styled.div`
@@ -138,7 +138,7 @@ export default ({ title, authorName }) => (
       <SiteTitle>{title}</SiteTitle>
     </StyledLink>
     <Logo
-      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDEyMDAiPgogIDxwYXRoIGQ9Ik02MDAgMEMyNjguNiAwIDAgMjY4LjYgMCA2MDBzMjY4LjYgNjAwIDYwMCA2MDAgNjAwLTI2OC42IDYwMC02MDBTOTMxLjQgMCA2MDAgMHpNMjY2LjYgOTMzLjNDMTc2LjEgODQyLjggMTMxIDcyNC42IDEyOS42IDYwNkw1OTQgMTA3MC40Yy0xMTguNi0xLjQtMjM2LjgtNDYuNS0zMjcuNC0xMzcuMXptNDM3LjcgMTI2LjFMMTQwLjYgNDk1LjdjNDcuNS0yMTAuMSAyMzUtMzY3LjEgNDU5LjQtMzY3LjEgMTU2LjkgMCAyOTUuNSA3NyAzODEuMiAxOTQuOUw5MTUuNiAzNzlDODQ1LjggMjc5LjUgNzMwLjUgMjE0LjMgNjAwIDIxNC4zYy0xNjcuNyAwLTMxMC4zIDEwNy43LTM2My4zIDI1Ny41bDQ5MS42IDQ5MS42YzEyMy40LTQzLjcgMjE4LTE0OC4yIDI0Ny42LTI3Ny42SDc3MS40VjYwMGgzMDBjMCAyMjQuNS0xNTcgNDExLjktMzY3LjEgNDU5LjR6IiBmaWxsPSIjNjM5Ii8+Cjwvc3ZnPgo="
+      src="https://avatars2.githubusercontent.com/u/42630357?s=460&v=4"
       alt={authorName}
     />
     <NameBoard>{authorName}</NameBoard>
@@ -163,16 +163,16 @@ export default ({ title, authorName }) => (
       <div>
         <p>
           <StyledHref
-            href="https://www.linkedin.com/in/vimalraj-selvam/"
+            href="https://stackoverflow.com/users/11637854/judonguyen"
             rel="noopener noreferrer"
             target="_blank"
           >
-            <FaLinkedin /> <span>Linkedin</span>
+            <FaStackOverflow /> <span>Stackoverflow</span>
           </StyledHref>
         </p>
         <p>
           <StyledHref
-            href="https://github.com/email2vimalraj"
+            href="https://github.com/thaind97git"
             target="_blank"
             rel="noopener noreferrer"
           >

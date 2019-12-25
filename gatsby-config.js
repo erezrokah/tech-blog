@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Tech Blog',
+    title: 'Tech Blogs',
     siteDescription: 'Tech Blog - A blog by Vimalraj Selvam',
-    authorName: 'Vimalraj Selvam'
+    authorName: 'Judo Nguyen'
   },
   plugins: [
     {
@@ -47,6 +47,7 @@ module.exports = {
     },
     'gatsby-plugin-offline',
     `gatsby-plugin-react-helmet`,
-    'gatsby-plugin-styled-components'
+    'gatsby-plugin-styled-components',
+    `gatsby-plugin-netlify-cms`
   ]
 }
