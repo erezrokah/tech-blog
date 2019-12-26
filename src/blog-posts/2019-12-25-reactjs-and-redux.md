@@ -1,5 +1,5 @@
 ---
-title: ReactJs And Redux
+title: Hiểu Rõ Hơn Về Event Loop Trong JavaScript Run time Environment
 date: 2019-12-25T09:19:30.244Z
 description: ''
 tags:
